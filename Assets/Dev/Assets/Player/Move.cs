@@ -33,8 +33,8 @@ public class Move : MonoBehaviour
         //cursor.transform.position = new Vector3(Screen.width / 2, Screen.height / 2);
 
         //Rotate mainCamera
-        yRotation += Input.GetAxisRaw("Mouse X") * 5;
-        xRotation -= Input.GetAxisRaw("Mouse Y") * 5;
+        yRotation += Input.GetAxisRaw("Mouse X") * 1;
+        xRotation -= Input.GetAxisRaw("Mouse Y") * 1;
 
         xRotation = Mathf.Clamp(xRotation, -90F, 90F);
         mainCamera.transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
