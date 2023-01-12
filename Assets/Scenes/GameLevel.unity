@@ -5104,6 +5104,10 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.z
       value: 1e-45
       objectReference: {fileID: 0}
+    - target: {fileID: 1737694683617710837, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5e16acb704372c42bc568f4e49dc07d, type: 2}
     - target: {fileID: 1766440840454625198, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
       propertyPath: m_Range
       value: 6
@@ -5788,6 +5792,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 3196186420831615450, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c423ddee12c3c6418d2b05683661472, type: 2}
     - target: {fileID: 3204717331492719859, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
       propertyPath: m_LocalScale.x
       value: 450
@@ -5840,6 +5848,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 3342314138318527292, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35c95ca24ff6eb744a156144f2cb0c1f, type: 2}
     - target: {fileID: 3358185661910097607, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
