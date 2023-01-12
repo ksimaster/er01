@@ -9,6 +9,9 @@ TagManager:
   - Morse
   - Wheel
   - Radio
+  - History
+  - History1
+  - History2
   layers:
   - Default
   - TransparentFX
