@@ -8,7 +8,9 @@ public class History_Papper2 : MonoBehaviour
     public GameObject player;
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+
+        if (Input.GetKeyDown(KeyCode.E))
+          //  if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
             RaycastHit hit;
