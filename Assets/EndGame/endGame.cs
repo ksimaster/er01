@@ -11,7 +11,7 @@ public class endGame : MonoBehaviour
     {
         if (transform.position == new Vector3(-0.3f, 0f, -0.006f))
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
                 RaycastHit hit;
