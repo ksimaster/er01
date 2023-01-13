@@ -14,11 +14,11 @@ public class endGame : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
-                RaycastHit hit;
-                if (Physics.Raycast(ray, out hit, 10))
+                RaycastHit hitEnd;
+                if (Physics.Raycast(ray, out hitEnd, 10))
                 {
-                    print(hit.transform.name);
-                    if (hit.transform.name == "Tür_vorne")
+                    print(hitEnd.transform.name);
+                    if (hitEnd.transform.name == "Tür_vorne")
                     {
                         //öffne End Screne
                         endScreen.SetActive(true);

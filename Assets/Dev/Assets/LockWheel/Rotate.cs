@@ -48,6 +48,7 @@ public class Rotate : MonoBehaviour
         couroutineAllowed = true;
         FindObjectOfType<AudioManager>().Play("Lock");
         Debug.Log("lock");
+        //Debug.Log(hit.transform.name);
         Rotated(hit.transform.name);
     }
 

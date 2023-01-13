@@ -2485,6 +2485,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 247750039367435097, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
   m_PrefabInstance: {fileID: 1470595208}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &839759951
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839759950}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a0ec7bff4cf44ef4c9dd02a045849553, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &883676029
 GameObject:
   m_ObjectHideFlags: 0
@@ -4319,6 +4338,10 @@ PrefabInstance:
     - target: {fileID: 246122403655572016, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
       propertyPath: m_LocalPosition.z
       value: -2.622
+      objectReference: {fileID: 0}
+    - target: {fileID: 247750039367435097, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
+      propertyPath: m_Name
+      value: 3ms-Tur
       objectReference: {fileID: 0}
     - target: {fileID: 247750039367435097, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
       propertyPath: m_IsActive
@@ -6320,6 +6343,18 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 4257290917485462414, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257290917485462414, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257290917485462414, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
+      propertyPath: m_Animations.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4267594291825295970, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -7777,6 +7812,10 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7404361884228359938, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
+      propertyPath: m_Name
+      value: Tur_vorne_Rahmen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404361884228359938, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -7975,6 +8014,10 @@ PrefabInstance:
     - target: {fileID: 7727689449678716678, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733593203214698605, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
+      propertyPath: m_Name
+      value: Tur_vorne
       objectReference: {fileID: 0}
     - target: {fileID: 7733593203214698605, guid: 9866afbc97fcf7449899ed766184d5bb, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9946,6 +9989,10 @@ PrefabInstance:
       propertyPath: door
       value: 
       objectReference: {fileID: 839759950}
+    - target: {fileID: 4022813300860535291, guid: c1eee46e993c46342b1f625ec5e328a1, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 839759951}
     - target: {fileID: 4022813301144669802, guid: c1eee46e993c46342b1f625ec5e328a1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

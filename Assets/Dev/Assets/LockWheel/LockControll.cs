@@ -8,14 +8,17 @@ public class LockControll : MonoBehaviour
 
     public GameObject door;
     private int[] result, correctCombination;
-    // Start is called before the first frame update
+    private Animation anim;
+   // public Animator animator;
+
 
     void Start()
     {
         result = new int[] { 0, 0, 0 };
         correctCombination = new int[] { 7, 5, 9 };
         Rotate.Rotated += CheckResult;
-
+        anim = door.GetComponent<Animation>();
+        //animator = door.GetComponent<Animator>();
     }
 
     private void CheckResult(string wheelName)
@@ -35,9 +38,21 @@ public class LockControll : MonoBehaviour
         }
         if (result[0] == correctCombination[0] && result[1] == correctCombination[1] && result[2] == correctCombination[2])
         {
-            FindObjectOfType<AudioManager>().Play("Lock_Open");
-            FindObjectOfType<AudioManager>().Play("Door_Open");
-            door.GetComponent<Animation>().Play("openDoor");
+                FindObjectOfType<AudioManager>().Play("Lock_Open");
+                FindObjectOfType<AudioManager>().Play("Door_Open");
+            try
+            {
+                //door.GetComponent<Animation>().Play("openDoor");
+                anim.Play("openDoor");
+
+                //animator.SetTrigger("Open");
+            }
+            catch
+            {
+                Debug.Log("Ошибка в проигрывании анимации openDoor");
+            }
+
+            
         }
     }
 }
