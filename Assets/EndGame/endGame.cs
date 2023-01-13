@@ -14,14 +14,17 @@ public class endGame : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
-                RaycastHit hitEnd;
-                if (Physics.Raycast(ray, out hitEnd, 10))
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit, 10))
                 {
-                    print(hitEnd.transform.name);
-                    if (hitEnd.transform.name == "Tür_vorne")
+                    print(hit.transform.name);
+                    if (hit.transform.name == "Tur_vorne")
                     {
                         //öffne End Screne
                         endScreen.SetActive(true);
+#if UNITY_WEBGL && !UNITY_EDITOR
+    	WebGLPluginJS.InterstitialFunction();
+#endif
                     }
                 }
             }

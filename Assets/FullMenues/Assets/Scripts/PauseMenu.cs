@@ -37,5 +37,13 @@ public class PauseMenu : MonoBehaviour
             menuOpened = !menuOpened;
             menuClosing = true;
         }
+        
+    }
+
+    public void Back()
+    {
+        escMenu.gameObject.SetActive(!escMenu.gameObject.activeSelf);
+        menuOpened = !menuOpened;
+        menuClosing = true;
     }
 }
