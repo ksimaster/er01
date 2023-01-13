@@ -44,6 +44,7 @@ QualitySettings:
     excludedTargetPlatforms:
     - Windows Store Apps
     - Standalone
+    - Android
   - serializedVersion: 2
     name: Low
     pixelLightCount: 0
@@ -83,6 +84,7 @@ QualitySettings:
     - WebGL
     - Windows Store Apps
     - Standalone
+    - Android
   - serializedVersion: 2
     name: Medium
     pixelLightCount: 1
@@ -122,6 +124,7 @@ QualitySettings:
     - WebGL
     - Standalone
     - Windows Store Apps
+    - Android
   - serializedVersion: 2
     name: High
     pixelLightCount: 2
@@ -161,6 +164,7 @@ QualitySettings:
     - Windows Store Apps
     - Standalone
     - WebGL
+    - Android
   - serializedVersion: 2
     name: Very High
     pixelLightCount: 3
@@ -200,6 +204,7 @@ QualitySettings:
     - WebGL
     - Windows Store Apps
     - Standalone
+    - Android
   - serializedVersion: 2
     name: Ultra
     pixelLightCount: 4
@@ -239,6 +244,7 @@ QualitySettings:
     - Standalone
     - Windows Store Apps
     - WebGL
+    - Android
   m_PerPlatformDefaultQuality:
     Android: 2
     Lumin: 5
@@ -248,7 +254,7 @@ QualitySettings:
     PSP2: 2
     Stadia: 5
     Standalone: 5
-    WebGL: 3
+    WebGL: 0
     Windows Store Apps: 5
     XboxOne: 5
     iPhone: 2
