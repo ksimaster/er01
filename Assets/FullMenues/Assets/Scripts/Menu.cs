@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class Menu : MonoBehaviour
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
 
 
-
+        
         foreach (Transform child in MainMenu.transform)
             if (child.transform.name != "Background")
             {
@@ -29,7 +30,7 @@ public class Menu : MonoBehaviour
 
         //yield on a new YieldInstruction that waits for 5 seconds.
 
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameLevel");
+        SceneManager.LoadScene("GameLevel");
 
     }
 
